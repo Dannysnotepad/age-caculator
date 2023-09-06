@@ -1,0 +1,56 @@
+*{
+  background-color: #5D221D;
+}
+
+#errorMsg{
+  background-color: blanchedalmond;
+  color: red;
+}
+
+.dob{
+  background-color: white;
+  font-family: 'Courier New', Courier, monospace;
+  border-radius: 5px;
+  font-size: 20px;
+  outline: none;
+  height: 30px;
+  width: 140px;
+}
+
+#dobInDetail{
+  color: #5D221D;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: blanchedalmond;
+}
+
+.logo{
+  background-color: blanchedalmond;
+  font-size: 30px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.form {
+  padding: 15px;
+  margin-top: 150px;
+  margin-right: 20px;
+  border-radius: 4px;
+  margin-left: 20px;
+  background-color: blanchedalmond;
+}
+
+.button{
+  border-radius: 0px 5px 5px 0px;
+  background-color: #83251D;
+  outline: none;
+  font-weight: bold;
+  color: floralwhite;
+  font-size: 20px;
+  border: none;
+  height: 29px;
+  width: 100px;
+}
+
+form{
+  background-color: blanchedalmond;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>📟 Age Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <center>
+    <div class="form">
+      <form id="formBody">
+        <h1 class="logo">📟 Age Calculator</h1>
+        <input type="text" id="dob" class="dob" placeholder="dd-mm-yy" onfocus="(this.type='date')" onblur="(this.type='text')">
+        <button class="button">Calculate</button><br><br>
+        <span id="errorMsg"></span>
+      </form>
+      <p id="dobInDetail"></p>
+    </div>
+  </center>
+<script src="script.js"></script>
+</body>
+
+</html>
